@@ -12,6 +12,5 @@ class UsersController < ApplicationController
   end
 
   private
-
-  
+aaaaaaaa
 end
