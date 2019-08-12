@@ -12,28 +12,28 @@
         Edit
   .messages
     .message
-      .top-message
-        .top-message__name
+      .upper-message
+        .upper-message__name
           test-user
-        .top-message__date
+        .upper-message__date
           2019/08/06(Tue) 17:52:56
-      .bottom-message
-        .bottom-message__contents
+      .lower-message
+        .lower-message__contents
           こんにちは
     .message
-      .top-message
-        .top-message__name
+      .upper-message
+        .upper-message__name
           test-user
-        .top-message__date
+        .upper-message__date
           2019/08/06(Tue) 17:52:56
-      .bottom-message
-        .bottom-message__contents
+      .lower-message
+        .lower-message__contents
           こんにちは
   .form
     %form{action: "", method: "post"}
       %input.form__message
-      .form__main
-        %label.form__main__image
+      .form__mask
+        %label.form__mask__image
           = fa_icon 'image', class: 'icon'
           %input.hidden{type: 'file'}
       %input.form__submit{type: 'submit', value: 'send'}
